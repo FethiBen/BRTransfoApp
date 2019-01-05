@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "608660233491-7jvdg2e66dm3go5epv8c02d4oj3d4jhv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fethiben.brtransfoapp",
+            "certificate_hash": "f3cbc22a0cb9ed42a4cf69e6d04fa4770ee2288e"
+          }
+        },
+        {
           "client_id": "608660233491-en5r0herdecm5j0pmaqg08ecue0godvu.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608660233491-en5r0herdecm5j0pmaqg08ecue0godvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
