@@ -120,7 +120,7 @@ class DeviceFragment : Fragment() {
         }
 
         FuelManager.instance.apply {
-            basePath = "https://fethiben.github.io/RB-TransfosWeb"
+            basePath = "https://br-webapp.herokuapp.com"
             baseHeaders = mapOf("Content-Type" to "application/json")
         }
 
@@ -150,7 +150,7 @@ class DeviceFragment : Fragment() {
     inner class someTask(obj: String) : AsyncTask<Void, Void, Result<Any, FuelError>>() {
         private var p = obj
         override fun doInBackground(vararg params: Void?): Result<Any, FuelError> {
-            val (request, response, result) = "https://fethiben.github.io/RB-TransfosWeb/getUserDevicesInfo/".httpPost().body(p).responseString()
+            val (request, response, result) = "https://br-webapp.herokuapp.com/getUserDevicesInfo/".httpPost().body(p).responseString()
             return result
         }
 

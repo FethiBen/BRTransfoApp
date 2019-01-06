@@ -1,4 +1,4 @@
-# Transfo Android App
+# Smart Transfo Android App
 
 ## Info:
 

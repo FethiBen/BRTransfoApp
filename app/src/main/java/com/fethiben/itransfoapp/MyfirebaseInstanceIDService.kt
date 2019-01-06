@@ -61,7 +61,7 @@ class MyfirebaseInstanceIDService : FirebaseInstanceIdService() {
             }
 
             FuelManager.instance.apply {
-                basePath = "https://fethiben.github.io/RB-TransfosWeb"
+                basePath = "https://br-webapp.herokuapp.com"
                 baseHeaders = mapOf("Content-Type" to "application/json")
             }
 

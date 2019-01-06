@@ -73,7 +73,7 @@ class Dashboard : AppCompatActivity() , DashboardFragment.OnFragmentInteractionL
         }
 
         FuelManager.instance.apply {
-            basePath = "https://fethiben.github.io/RB-TransfosWeb"
+            basePath = "https://br-webapp.herokuapp.com"
             baseHeaders = mapOf("Content-Type" to "application/json")
         }
 

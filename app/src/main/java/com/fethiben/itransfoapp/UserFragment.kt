@@ -118,7 +118,7 @@ class UserFragment : Fragment() {
         }
 
         FuelManager.instance.apply {
-            basePath = "https://fethiben.github.io/RB-TransfosWeb"
+            basePath = "https://br-webapp.herokuapp.com"
             baseHeaders = mapOf("Content-Type" to "application/json")
         }
         postData(obj.toString())
@@ -128,7 +128,7 @@ class UserFragment : Fragment() {
 
     private fun sendEmail() {
         val intent = Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                "mailto", "support@fethiben.github.io/RB-TransfosWeb", null))
+                "mailto", "support@br-webapp.herokuapp.com", null))
         startActivity(Intent.createChooser(intent, "Choose an Email client :"))
     }
 
