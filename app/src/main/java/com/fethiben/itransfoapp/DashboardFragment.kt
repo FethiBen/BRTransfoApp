@@ -163,7 +163,7 @@ class DashboardFragment : Fragment() {
                     msg.setTextColor(resources.getColor(R.color.colorWhite))
                     msg.text = data.getString("msg").toString()
                     msg.layoutParams = ViewGroup.LayoutParams(ActionBar.LayoutParams.MATCH_PARENT, ActionBar.LayoutParams.WRAP_CONTENT)
-                    msg.setPadding(35, 15, 15, 15)
+                    msg.setPadding(65, 35, 35, 35)
                     msg.textSize =  20.toFloat()
                     try {
                         layout!!.addView(msg)
