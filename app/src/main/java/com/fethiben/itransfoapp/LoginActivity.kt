@@ -341,6 +341,6 @@ class LoginActivity : AppCompatActivity(){
          * Id to identity READ_CONTACTS permission request.
          */
         private val REQUEST_READ_CONTACTS = 0
-        private val TAG = "Transfo App"
+        private val TAG = "Smart Transfo App"
     }
 }
