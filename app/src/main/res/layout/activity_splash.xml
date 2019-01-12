@@ -17,7 +17,7 @@
         android:textAlignment="center"
         android:textSize="35sp"
         android:fontFamily="@font/fredericka_the_great"
-        android:text="{fa-bolt} Transfo"
+        android:text="{fa-bolt} smarTTransfo"
         android:textColor="@color/colorWhite"/>
 
 
