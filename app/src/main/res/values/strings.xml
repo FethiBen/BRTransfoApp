@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Transfo App</string>
+    <string name="app_name">Smart Transfo App</string>
     <string name="title_activity_dashboard">Dashboard</string>
     <string name="title_home">Dashboard</string>
     <string name="title_devices">Devices</string>
@@ -27,7 +27,7 @@
     <string name="hello_user_fragment">Hello user fragment</string>
     <string name="title_activity_splash">SplashActivity</string>
     <string name="action_sign_out">{fa-sign-out-alt} Sign Out</string>
-    <string name="itransfo">Transfo</string>
+    <string name="itransfo">smarTTransfo</string>
     <string name="todo">TODO</string>
     <string name="title_activity_device_info">DeviceInfo</string>
     <string name="title_activity_device_settings">Settings</string>
@@ -43,7 +43,7 @@
     </string>
 
     <string name="pref_title_display_name">Display name</string>
-    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_default_display_name">Ridha Mattoussi</string>
 
     <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
     <string-array name="pref_example_list_titles">
