@@ -5,7 +5,7 @@
 This app is part of an internet of things system (IOT), Smart Transfo App (https://br-webapp.herokuapp.com), that allows monitoring of a high voltage transformer in real time. the monitored information include: voltage, current, gas and temperature. Also, based on the inputed limits in the web interface, the app will receive notification if any of the monitored values bypasses the limits. The app communicates with a Firebase and Amazon Web Services (AWS) to retrive the saved data and allow the monitoring of the transformer status. This app is solely written in Kotlin and XML.
 
 
-[**Demo App Video**](https://drive.google.com/open?id=17Eb6OnVvTd5PSkm1oC54biYLiCl6C5TA)
+[**Demo App Video**](https://drive.google.com/open?id=1G1ofs1CWQUrikgD78HBasPQ1qDNbuuql)
 
 Login interface
 ![Login interface](screenshots/1.png)
