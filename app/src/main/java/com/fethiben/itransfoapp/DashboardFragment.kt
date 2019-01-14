@@ -165,7 +165,7 @@ class DashboardFragment : Fragment() {
                     msg.layoutParams = ViewGroup.LayoutParams(ActionBar.LayoutParams.MATCH_PARENT, ActionBar.LayoutParams.WRAP_CONTENT)
                     msg.setPadding(35, 15, 15, 15)
                     //msg.setMargins(25, 0, 0, 0);
-                    msg.textSize = 25.toFloat()
+                    msg.textSize = 20.toFloat()
                     try {
                         layout!!.addView(msg)
                     }
